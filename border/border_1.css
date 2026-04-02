@@ -1,0 +1,20 @@
+#border_1
+{
+    border: 1px solid black;
+}
+
+#border_2
+{
+    border-bottom: 1px solid red;
+}
+#border_3
+{
+    border : 1px solid black;
+    border-radius: 15px;
+}
+
+#border_4
+{
+    border-left: 3px solid blue;
+    background-color: skyblue;
+}

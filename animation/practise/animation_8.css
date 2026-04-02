@@ -1,0 +1,40 @@
+.box_1{
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    border: 4px solid black;
+    animation: mybox 5s infinite;
+    position: relative;
+}
+
+@keyframes mybox {
+    0%{
+        left : 0px;
+        top : 0px;
+    } 
+    10%{
+        left : 500px;
+        top : 0px;
+    }
+
+    20%{
+        left : 500px;
+        top : 500px;
+    }
+    30%{
+        left : 0px;
+        top : 500px;
+    }
+    40%{
+        left : 0px;
+        top :1000px;
+    }
+    50%{
+        left : 500px;
+        top : 1000px;
+    }
+    100%{
+        left : 500px;
+        top : 500px;
+    }
+}

@@ -1,0 +1,32 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    border: 3px solid black;
+    position: relative;
+    animation: mybox 5s infinite;
+}
+@keyframes mybox {
+    from
+    {
+        left : 0px;
+    }
+    to{
+        left: 500px;
+    }
+}
+.box_1{
+    animation-timing-function: linear;
+}
+.box_2{
+    animation-timing-function: ease-in;
+}
+.box_3{
+    animation-timing-function: ease-out;
+}
+.box_4{
+    animation-timing-function: ease-in-out;
+}
+.box_5{
+    animation-timing-function: ease;
+}

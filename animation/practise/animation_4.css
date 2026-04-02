@@ -1,0 +1,20 @@
+div{
+    height: 150px;
+    width: 450px;
+    background-color: skyblue;
+    border: 4px solid black;
+    animation: mybox 5s infinite;
+    position: relative;
+}
+
+@keyframes mybox {
+    from{
+        left : 0px;
+
+    }
+    to{
+        left : 500px;
+       background-color: blue;
+       width: 150px;
+    }
+}
